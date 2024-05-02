@@ -1,0 +1,26 @@
+{
+  "name": "pahalarasagola",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"node app.js",
+    "dev":"nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://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@github.com/subratre/pahalarasagola.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/subratre/pahalarasagola/issues"
+  },
+  "homepage": "https://github.com/subratre/pahalarasagola#readme",
+  "description": "",
+  "dependencies": {
+    "express": "^4.19.2",
+    "pug": "^3.0.2"
+  }
+}
