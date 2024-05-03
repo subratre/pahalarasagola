@@ -1,5 +1,5 @@
 const express = require("express");
-const { router } = require("../routes/home");
+const { router } = require("./routes/home");
 const path = require("path");
 
 const app = express();
@@ -11,4 +11,6 @@ app.use(express.static(path.join(__dirname, "public")));
 
 app.use(router);
 
-module.exports = app;
+app.listen(5000, () => {
+  console.log(`server running on port 5000`);
+});
