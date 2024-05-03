@@ -7,10 +7,6 @@
     "start":"node app.js",
     "dev":"nodemon app.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://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@github.com/subratre/pahalarasagola.git"
-  },
   "keywords": [],
   "author": "",
   "license": "ISC",
